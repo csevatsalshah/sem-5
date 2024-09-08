@@ -142,6 +142,60 @@ There are various types of network topologies, each with its own advantages and 
     * Can be complex to design and implement.
 * **Best Suited for:**  Networks with diverse requirements where a single topology isn't sufficient.
 
+# Q4] Explain the following terms:
+
+These terms all relate to the various delays a data packet encounters as it travels across a network:
+
+## Q4. i) Processing Delay
+
+**Answer:** Processing delay is the time a network device (like a router) takes to examine the header of a data packet. The device will:
+
+* Analyze the packet header to determine the destination.
+* Perform error checking on the packet.
+* Decide which output link to forward the packet to.
+
+Processing delay is typically very short, measured in **microseconds** or less.
+
+## Q4. ii) Transmission Delay
+
+**Answer:** Transmission delay (also called serialization delay) is the amount of time it takes a device to push all the bits of a data packet onto the transmission link. It depends on two factors:
+
+* **Packet size (L):** The number of bits in the packet.
+* **Transmission rate (R):** The link's bandwidth (bits per second).
+
+The formula to calculate transmission delay is:
+
+**Transmission Delay (d<sub>tran</sub>) =  L / R**
+
+Transmission delay is typically measured in **microseconds** or **milliseconds**.
+
+## Q4. iii) Propagation Delay
+
+**Answer:** Propagation delay is the time it takes for a single bit to travel across the physical medium from the sending device to the receiving device. It is determined by:
+
+* **Distance (d):** The physical length of the transmission medium.
+* **Propagation speed (s):** The speed at which signals travel through the medium (close to the speed of light in fiber optic cables).
+
+The formula for propagation delay is:
+
+**Propagation Delay (d<sub>prop</sub>) = d / s**
+
+Propagation delay is often measured in **milliseconds**. 
+
+## Q4. iv) Queuing Delay
+
+**Answer:** Queuing delay is the time a packet spends waiting in a queue at a network device before it can be transmitted. It depends on the congestion level at that device:
+
+* **No Congestion:** If the queue is empty, the queuing delay is zero.
+* **Heavy Traffic:** If the queue is full or there is a lot of traffic, the queuing delay will be longer.
+
+Queuing delay can vary significantly, ranging from **microseconds** to **milliseconds** or even longer in congested network conditions.
+
+
+**In summary:** When a packet travels through a network, the total delay it experiences is the sum of these four delays:
+
+**Total Delay = Processing Delay + Queuing Delay + Transmission Delay + Propagation Delay** 
+
 
 
 
