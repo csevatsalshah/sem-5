@@ -1,4 +1,4 @@
-## 1. What is a Computer Network? Explain types of Computer Networks in brief.
+# 1. What is a Computer Network? Explain types of Computer Networks in brief.
 
 **Answer:**
 
@@ -35,7 +35,7 @@ A **computer network** is a collection of interconnected computing devices that 
     * More complex to manage and troubleshoot.
 * **Example:**  The **Internet** is the largest and most well-known WAN.
 
-## 2. Answer the following Questions.
+# 2. Answer the following Questions.
 
 ### i) For n devices in a network, what is the number of cable links required for a mesh topology?
 
@@ -62,7 +62,7 @@ where 'n' is the number of devices.
 * **Provides Reliability:**  Uses mechanisms like acknowledgements and retransmissions (in protocols like TCP) to ensure data is delivered without errors and in the correct order.
 * **Manages Flow Control:** Prevents a fast sender from overwhelming a slow receiver.
 
-## 3. What is topology or Network Topology? Explain different types of topologies.
+# 3. What is topology or Network Topology? Explain different types of topologies.
 
 **Answer:**  A **Network Topology** describes the arrangement or physical layout of devices and connections in a network.  It defines how the devices are interconnected and how data flows between them.
 
@@ -90,7 +90,7 @@ where 'n' is the number of devices.
     - Combines two or more of the above topologies. 
     - Allows flexibility in network design to meet specific requirements. 
 
-## 4. Explain following terms:
+# 4. Explain following terms:
 
 ### i) Processing Delay
 
@@ -108,7 +108,7 @@ where 'n' is the number of devices.
 
 **Answer:** **Queuing delay** is the time a packet spends waiting in the queue at the output link of a router before it can be transmitted. This delay depends on the amount of congestion at the router.  If there is no congestion, the queuing delay is zero. If the queue is full, the delay can be very significant (milliseconds or even longer). 
 
-## 5. What is Transmission Media? Explain different types of Transmission Media.
+# 5. What is Transmission Media? Explain different types of Transmission Media.
 
 **Answer:** **Transmission Media** is the physical path through which data signals are transmitted between network devices.
 
@@ -139,7 +139,7 @@ where 'n' is the number of devices.
 * **Infrared:**
     - Short-range signals used in TV remotes, data transfers between devices in close proximity.
 
-## 6. Differentiate between connection-oriented versus connectionless services in Networks.
+# 6. Differentiate between connection-oriented versus connectionless services in Networks.
 
 **Answer:**
 
@@ -153,7 +153,7 @@ where 'n' is the number of devices.
 
 **Connection-oriented services** are like having a dedicated phone call - you set up a connection, then talk continuously, and then hang up. **Connectionless services** are like sending letters - each letter (packet) is independent and may arrive in a different order.
 
-## 7. Difference between Circuit Switching and Packet Switching.
+# 7. Difference between Circuit Switching and Packet Switching.
 
 **Answer:**
 
@@ -168,7 +168,7 @@ where 'n' is the number of devices.
 
 **Circuit switching** is like having a dedicated physical line (like a phone line). **Packet switching** is like sending data in small packets that are routed independently through the network.
 
-## 8. Define the following terms:
+# 8. Define the following terms:
 
 ### i) Delay
 **Answer:**  **Delay** is the time it takes for a data packet to travel from the source to the destination in a network.  It's a combination of processing delay, queuing delay, transmission delay, and propagation delay. 
@@ -187,7 +187,7 @@ where 'n' is the number of devices.
 ## CO1 
 **(Assuming CO1 refers to a set of related questions):**
 
-## 9. How long does it take to send a file of 640,000 bits from host A to host B over a circuit-switched network?
+# 9. How long does it take to send a file of 640,000 bits from host A to host B over a circuit-switched network?
 • All links are 1.536 Mbps
 • Each link uses TDM with 24 slots/sec
 • 500 msec to establish end-to-end circuit.
@@ -207,7 +207,7 @@ Since we need to fit the entire file into one slot, the transmission will take a
                = 500 ms + 41.66 ms 
                = **541.66 ms**
 
-## 10. How long does it take to send a file of 640,000 bits from host A to host B over a circuit-switched network?
+# 10. How long does it take to send a file of 640,000 bits from host A to host B over a circuit-switched network?
 • All links are 1.536 Mbps
 • Each link uses FDM with 24 slots/sec
 • 500 msec to establish end-to-end circuit.
@@ -218,7 +218,7 @@ Since we need to fit the entire file into one slot, the transmission will take a
                = 500 ms + 0.416 seconds (calculated in the previous question)
                = **916 ms**
 
-## 11. A network with a bandwidth of 10 Mbps can pass only an average of 12,000 frames per minute with each frame carrying an average of 10,000 bits. What is the throughput of this network? (Hint: Refer definition of throughput).
+# 11. A network with a bandwidth of 10 Mbps can pass only an average of 12,000 frames per minute with each frame carrying an average of 10,000 bits. What is the throughput of this network? (Hint: Refer definition of throughput).
 
 **Answer:**
 
@@ -229,7 +229,7 @@ Since we need to fit the entire file into one slot, the transmission will take a
 
 Even though the network bandwidth is 10 Mbps, the actual throughput is only 2 Mbps, likely due to overhead and other network inefficiencies.
 
-## 12. What is bit and byte stuffing? Explain with example.
+# 12. What is bit and byte stuffing? Explain with example.
 
 **Answer:** 
 
@@ -250,7 +250,7 @@ Even though the network bandwidth is 10 Mbps, the actual throughput is only 2 Mb
     - **Original data:**  Data DLE More Data
     - **After byte stuffing:** Data **ESC DLE** More Data 
 
-## 13. Draw OSI Reference Model. Explain the functionality of each layer in brief. 
+# 13. Draw OSI Reference Model. Explain the functionality of each layer in brief. 
 
 **Answer:** 
 
@@ -273,7 +273,7 @@ Even though the network bandwidth is 10 Mbps, the actual throughput is only 2 Mb
 * **Please Do Not Throw Sausage Pizza Away** (from top to bottom)
 * **All People Seem To Need Data Processing** (from bottom to top) 
 
-## 14. Draw the layered architecture of TCP/IP model and write at least two services provided by each layer of the model.
+# 14. Draw the layered architecture of TCP/IP model and write at least two services provided by each layer of the model.
 
 **Answer:** 
 
