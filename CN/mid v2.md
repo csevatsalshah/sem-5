@@ -1,4 +1,3 @@
-Okay, I'll answer all of the questions from Units 1 and 3 in detail, assuming these are 7-mark questions.  I'll provide explanations and examples to ensure a thorough understanding.
 
 # Unit 1
 
