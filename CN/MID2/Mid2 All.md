@@ -22,14 +22,6 @@ Here’s a comparison between **Procedural Design** and **Object-Oriented Design
 - **Procedural Design** is function-based, where problems are solved by defining procedures or functions.
 - **Object-Oriented Design** organizes the system into objects that encapsulate both data and behavior.
 
-### Conclusion:
-Procedural Design is suited for smaller, simpler problems where operations are function-based, while Object-Oriented Design is better for complex systems where modularity, encapsulation, and reusability are key.
-
-### Key Points:
-- Procedural: Functions and centralized state.
-- Object-Oriented: Objects with decentralized state and encapsulation.
-- Object-Oriented design promotes **reusability** and **security** through encapsulation.
-
 ### Mnemonic to Remember:
 - **POOD**: **P**rocedural focuses on **O**perations, **O**bject-oriented on **D**ata and behavior.
 
@@ -87,13 +79,6 @@ In a **Banking System**, consider a **Transaction Processing** module that only 
 ### Summary:
 - **Modularity** breaks down complex systems into manageable, independent units.
 - **Functional Independence** ensures that each module is cohesive and has minimal interaction (low coupling) with other modules.
-
-### Conclusion:
-By following these principles, software becomes easier to understand, develop, maintain, and extend. Modularity and Functional Independence together enable **scalable** and **maintainable** system design.
-
-### Key Points:
-- **Modularity**: Divides the system into smaller, manageable parts.
-- **Functional Independence**: Ensures modules operate independently, with high cohesion and low coupling.
 
 ---
 
@@ -161,13 +146,6 @@ A good design promotes the reuse of components across different parts of the sys
 - The **Design Process** transforms requirements into a structured blueprint, guiding the development phase.
 - **Design Concepts** like abstraction, modularity, and encapsulation help create maintainable, scalable, and efficient software.
 
-### Conclusion:
-By adhering to the design process and applying key design concepts, software engineers can develop high-quality systems that are easy to manage, extend, and maintain.
-
-### Key Points:
-- **Design Process**: Structured approach to system design.
-- **Design Concepts**: Include abstraction, modularity, encapsulation, and functional independence, among others.
-
 ### Mnemonic to Remember:
 - **A MECH-RIF**: **A**bstraction, **M**odularity, **E**ncapsulation, **C**ohesion, **H**ierarchy, **R**efinement, **I**nformation hiding, **F**unctional independence.
 
@@ -231,12 +209,6 @@ Coupling can be classified into different types based on the level of dependency
 
 ### Summary:
 - **Coupling** is a measure of how much one module depends on another.
-- Low coupling is desirable in software design to ensure that changes in one module do not heavily impact others.
-  
-### Conclusion:
-Reducing coupling between modules leads to better maintainability, scalability, and flexibility in software systems. Ideally, aim for **data coupling** or **message coupling**, and avoid content or common coupling whenever possible.
-
-### Key Points:
 - **High Coupling**: Modules are tightly bound; changes in one affect the other.
 - **Low Coupling**: Modules are independent and communicate with minimal data exchange.
 
@@ -302,13 +274,6 @@ Cohesion can be classified into different types based on the degree of relatedne
 ---
 
 ### Summary:
-- **Cohesion** is a measure of how closely related and focused the responsibilities of a module are.
-- High cohesion within modules is desirable for better maintainability and clarity in software design.
-
-### Conclusion:
-Achieving high cohesion is a key objective in software design, as it enhances the reliability, maintainability, and understandability of the system.
-
-### Key Points:
 - **High Cohesion**: Indicates a module with a clear purpose, leading to better maintainability.
 - **Low Cohesion**: Results in unrelated elements within a module, making maintenance challenging.
 
@@ -317,7 +282,7 @@ Achieving high cohesion is a key objective in software design, as it enhances th
 
 ---
 
-# Unit - 6
+# Unit 6
 
 ### Q-6.1) Distinguish between Verification & Validation
 
@@ -339,13 +304,6 @@ Verification and validation are two crucial activities in the software developme
 ### Summary:
 - **Verification** ensures the product is built **according to specifications**.
 - **Validation** ensures the product **meets the user’s needs**.
-
-### Conclusion:
-Both verification and validation are essential for delivering high-quality software. Verification focuses on ensuring that the system is built correctly, while validation focuses on ensuring that the right product is delivered to the user.
-
-### Key Points:
-- **Verification** = Process-oriented, checking if the product is being built right.
-- **Validation** = Product-oriented, checking if the right product is built.
   
 ### Mnemonic to Remember:
 - **V**erification = **V**ersus Specifications.
@@ -374,13 +332,6 @@ Black box and white box testing are two different approaches to testing software
 ### Summary:
 - **Black Box Testing** tests the **functionality** without looking at the internal code.
 - **White Box Testing** tests the **internal structure** and logic of the code.
-
-### Conclusion:
-Both black box and white box testing are essential to ensure software quality. Black box testing ensures the software works from a user perspective, while white box testing ensures the internal logic is error-free.
-
-### Key Points:
-- **Black Box** = External behavior and functionality.
-- **White Box** = Internal code structure and logic.
   
 ### Mnemonic to Remember:
 - **Black Box** = **B**ehavior-based.
@@ -438,13 +389,6 @@ Some common tools for system testing include:
 ### Summary:
 - **System testing** ensures that the complete software system meets the business and technical requirements.
 - It covers functional and non-functional aspects, making sure the system works as expected in a real-world environment.
-
-### Conclusion:
-System testing is critical to ensuring the reliability, performance, and overall quality of a software product. It helps identify defects before the system is delivered to users, reducing risks and ensuring customer satisfaction.
-
-### Key Points:
-- **System testing** tests the entire system in an environment similar to production.
-- It includes functional, performance, security, and usability testing.
   
 ### Mnemonic to Remember:
 - **System Testing** = **S**ystem's **T**otal behavior and functionality check.
@@ -495,13 +439,6 @@ For a form that accepts age as an input field with a range of 18 to 60, you woul
 ### Summary:
 - **Boundary Value Analysis (BVA)** tests input at the boundaries of the input domain.
 - It is an effective and widely-used black-box testing technique that helps identify errors where they are most likely to occur: at the **boundary values**.
-
-### Conclusion:
-BVA is a simple yet powerful testing technique for detecting errors at the boundary edges of input ranges. It improves the chances of finding defects with fewer test cases, but it may not cover all possible scenarios within the input range.
-
-### Key Points:
-- **Boundary testing** focuses on the edges of input ranges.
-- BVA is useful for **reducing the number of test cases** while still maintaining good coverage of edge cases.
   
 ### Mnemonic to Remember:
 - **BVA** = **B**order **V**alue **A**ssessment.
@@ -593,14 +530,9 @@ Black box testing is crucial for validating software from a user perspective. It
 ### Summary:
 - **Verification** ensures that the software is being built according to requirements, focusing on **correct implementation** without executing code.
 - **Validation** ensures that the software **works for the user**, focusing on **correct functionality** by running the code.
-- Only **validation** makes heavy use of test-case design methods and testing strategies since it involves testing the actual functionality of the system.
-
-### Conclusion:
-Both verification and validation are essential for ensuring software quality, but while verification checks if the system is developed correctly according to specifications, validation checks if the final product meets the user's expectations.
-
-### Key Points:
 - **Verification** = Process correctness.
 - **Validation** = Product correctness.
+
   
 ### Mnemonic to Remember:
 - **Verification** = **V**ersus requirements.
